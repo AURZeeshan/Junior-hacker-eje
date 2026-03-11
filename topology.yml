@@ -15,9 +15,9 @@ hosts:
 
   - name: client
     base_box:
-      image: debian-12-x86_64
-      mgmt_user: debian
-    flavor: standard.small
+      image: ejabberd
+      mgmt_user: ubuntu
+    flavor: standard.large
 
 routers:
   - name: router
